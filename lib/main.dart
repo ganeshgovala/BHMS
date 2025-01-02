@@ -1,5 +1,6 @@
 // ignore_for_file: prefer_const_constructors
 
+import 'package:bhms/pages/OpeningPage.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -14,11 +15,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       home: Scaffold(
-        body: Center(
-          child: Text("Hello", style: TextStyle(
-            fontSize: 50,
-          ),),
-        )
+        body: OpeningPage(),
       ),
     );
   }

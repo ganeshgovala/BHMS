@@ -9,4 +9,12 @@ class CustomTextStyles {
       fontWeight: FontWeight.w700
     );
   }
+
+  TextStyle subHeading() {
+    return GoogleFonts.poppins(
+      fontSize: 14,
+      color: const Color.fromARGB(255, 89, 89, 89),
+      fontWeight: FontWeight.w500,
+    );
+  }
 }

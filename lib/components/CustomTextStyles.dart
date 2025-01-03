@@ -17,4 +17,12 @@ class CustomTextStyles {
       fontWeight: FontWeight.w500,
     );
   }
+
+  TextStyle sideHeading() {
+    return GoogleFonts.poppins(
+      fontSize: 18,
+      color: Colors.black,
+      fontWeight: FontWeight.w600,
+    );
+  }
 }
